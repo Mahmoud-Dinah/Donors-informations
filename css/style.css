@@ -28,6 +28,7 @@ header{
     float: right;
     padding-right: 15px;
     margin: 15px;
+    
 }
 
 
@@ -44,10 +45,11 @@ table {
 
   footer {
     margin-top: auto;
-    background-color: #777;
+    background-color:rgba(96, 96, 96,.8);
     padding: 10px;
     text-align: center;
     color: white;
+    
   }
 select{
     width: 100%;
