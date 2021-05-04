@@ -49,10 +49,7 @@ function handelsubmit(event) {
     let fname = first.fname.value;
     let amount = first.amount.value;
     let newIns = new Donation(fname, amount);
-
-    render();
-    saveTols();
-   
+    saveTols();     
     newIns.randomAge();
     newIns.renderPro();
 
@@ -115,7 +112,8 @@ getFromls();
 
 headerRow();
 
-randomTwo();
+render();
+
 
 
 function saveTols() {
